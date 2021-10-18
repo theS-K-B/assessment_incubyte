@@ -1,0 +1,3 @@
+,Customer_Id,Open_Date,Last_Consult_date,Vaccination_Id,Dr_Name,State,Country,DOB,Is_Active
+0,128970,2010-10-12,2012-10-13,MVD,Paul,WAS,PHIL,2010-10-12,A
+1,128971,2010-10-12,2012-10-13,MVD,Paul,WAS,PHIL,2010-10-12,A
