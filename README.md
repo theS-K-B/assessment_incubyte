@@ -2,7 +2,7 @@
 # assessment_incubyte
 
 ##  📌Working Process :
-- The main difference between this project and [```assessment```](https://github.com/theS-K-B/assessment.git) project is the use of primary key. He re the key is ```Customer_Name```
+- The main difference between this project and [```assessment```](https://github.com/theS-K-B/assessment.git) project is the use of primary key. Here the key is ```Customer_Name```
 - At first you need to create a MySQL database, then import the given  [```customers.sql```](https://github.com/theS-K-B/assessment_incubyte/blob/f52dc17d82c3215cc4ff57f245b92f9aa0ad465e/datafiles/customers.sql) table.
 - The [```main_connector.py```](https://github.com/theS-K-B/assessment_incubyte/blob/f52dc17d82c3215cc4ff57f245b92f9aa0ad465e/main_connector.py) is a python script, which perform all the ETL operations.
 - It fetches the ```table``` from MySQL  database and convert it into a ```pandas data frame``` for further transformation.
