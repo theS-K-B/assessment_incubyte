@@ -16,3 +16,12 @@ for country in country_list:
     con=engine,
     index=False,
     if_exists='replace')
+
+# get the data from specified country table
+def get_datafile(country):
+    country = country.lower()
+    df = pd.read_sql_table('table_'+country, engine)
+    # get data file as a csv
+    df.to_csv('D:/projects/assessment_incubyte/datafiles/' + country + ".csv")
+
+get_datafile("au")
